@@ -7,6 +7,8 @@
 }
 :root {
     --bg-color: #f4f6fa;
+    --bg-span:#f4f6fa;
+    --color-span:#626c7f;
     --button-bg: #fff;
     --bg-html: #fff1e9;
     --bg-css:#e0fdef;
@@ -28,6 +30,7 @@ body.escuro {
     --bg-mobile: url(../../assets/images/pattern-background-mobile-dark.svg);
     --bg-desktop: url(../../assets/images/pattern-background-desktop-dark.svg);
     --bg-color: #313e51;
+    --color-span:#313e51;
     --primary-text-color: #fff;
     --secondary-text-color: #abc1e1;
     --button-bg: #3b4d66;
@@ -202,9 +205,9 @@ main {
     display: block;
     width: 40px;
     height: 40px;
-    background: var(--bg-color);
+    background: var(--bg-span);
     border-radius: 5px;
-    color: var(--secondary-text-color);
+    color: var(--color-span);
 
     display: flex;
     align-items: center;
